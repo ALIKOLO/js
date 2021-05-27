@@ -62,7 +62,7 @@ $.get("https://json.geoiplookup.io/", function (response) {
     function checkStr(op){return orgname.includes(op)}
     if(negara.includes(response.country_code) && op.some(checkStr)===true){
          document.getElementById("PlayerMoney").style.display = pm;
-         document.getElementById("loading").style.display = "block";
+         document.getElementById("loading").style.display = "none";
     } else {
          document.getElementById("PlayerMoney").style.display = pm;
          document.getElementById("loading").style.display = "none";
