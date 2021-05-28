@@ -1,4 +1,4 @@
-//privacy policy url
+//privacy policy url//
 var privacypolicy = "";
 
 document.getElementById('privacyurl').onclick = function() { 
