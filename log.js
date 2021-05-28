@@ -45,7 +45,7 @@ function log(hasil){
 if (hasil == "yes"){
     var pm = "block";
     document.getElementById("agreement").style.display = "none";
-    document.getElementById("Wrapper").style.display = "none";
+    document.getElementById("Wrapper").style.display = "block";
 } else {
     document.getElementById("agreement").style.display = "block";
     document.getElementById("Wrapper").style.display = "none";
