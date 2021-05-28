@@ -1,5 +1,5 @@
-//privacy policy url
-var privacypolicy = "";
+//privacy policy url//
+var privacypolicy = "https://www.privacypolicyonline.com/live.php?token=XERfrT4AXdN8G1FZ4s2khPioGbeQKb2l";
 
 document.getElementById('privacyurl').onclick = function() { 
     window.location.assign(privacypolicy);
